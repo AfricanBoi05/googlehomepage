@@ -1,0 +1,143 @@
+body {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #e8e8e8;
+    margin: 50px 50px 0px 50px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    margin-top: 10px;
+    font-style: normal;
+}
+
+.right-corner {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    text-align: end;
+    margin-right: 10px;
+}
+
+a {
+    color: #e8e8e8;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+.search-button {
+    display: flex;
+    width: 700px;
+    margin-left: 25%;
+    border-radius: 40px;
+    background-color: #4d5156;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.ai {
+    display: flex;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #303134;
+    border-radius: 20px;
+    padding: 10px;
+    height: 20px;
+}
+
+button, input {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.ai > p, a {
+    margin: 0;
+}
+
+.type-button {
+    line-height: 30px;
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+}
+
+.second-search {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.gs {
+    display: inline-flex;
+    padding: 10px;
+    background-color: #303134;
+    border-radius: 10px;
+}
+
+.if {
+    display: inline-flex;
+    padding: 10px;
+    background-color: #303134;
+    border-radius: 10px;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: 10px;
+    gap: 0.5px;
+    background-color: #e8e8e8;
+    margin-top: 70px;
+}
+
+.naija {
+    background-color: rgb(20, 20, 20);
+}
+
+.para {
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+@media (max: 850px) {
+    body {
+        height: 100%;
+        margin: 100%;
+    }
+    .search-button {
+        display: flex;
+        justify-content: center;
+        margin: 100px
+    }
+}
