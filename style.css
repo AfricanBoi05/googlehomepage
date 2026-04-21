@@ -2,12 +2,11 @@ body {
     background-color: #1f1f1f;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 75vh;
     color: #e8e8e8;
     margin: 50px 50px 0px 50px;
     font-family: Arial, sans-serif;
     margin: 0;
-    margin-top: 10px;
     font-style: normal;
 }
 
@@ -15,6 +14,7 @@ body {
     display: flex;
     justify-content: flex-end;
     margin: 0;
+    margin-top: 10px;
     padding: 0;
 }
 
@@ -66,7 +66,7 @@ button, input {
 }
 
 .type-button {
-    line-height: 30px;
+    line-height: 25px;
     background-color: transparent;
     padding: 0;
     border: 0;
@@ -130,14 +130,23 @@ h4 {
     margin-left: 20px;
 }
 
-@media (max: 850px) {
-    body {
-        height: 100%;
-        margin: 100%;
+@media (max-width: 850px) {
+    .logo {
+        width: 100%;
     }
+
     .search-button {
-        display: flex;
-        justify-content: center;
-        margin: 100px
+        width: 400px;
+        justify-content: space-evenly;
+        margin: 0;
+        margin-left: 15%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    body {
+        width: 600px;
     }
 }
